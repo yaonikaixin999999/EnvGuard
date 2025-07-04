@@ -1,0 +1,47 @@
+/* 表格样式 */
+
+.air-quality-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* 表头样式 */
+  .air-quality-table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .air-quality-table th,
+  .air-quality-table td {
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* 隔行变色 */
+  .air-quality-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* 悬停高亮 */
+  .air-quality-table tbody tr:hover {
+    background-color: #f1f9ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 文字优化 */
+  .air-quality-table th {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .air-quality-table td {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
